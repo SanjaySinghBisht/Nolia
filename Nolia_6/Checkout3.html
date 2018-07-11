@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Nolia - Page Title</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/jQuery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script> 
+        <style type="text/css">
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="icons pull-right"> <a href="#"><img src="images/icon-cart.png" alt="Cart" /></a> <a href="#"><img src="images/icon-globe.png" alt="Global" /></a> </div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="#"><img src="images/nolia-logo.png" class="img-responsive" alt="Nolia" /></a> 
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <div class="pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Hem</a></li>
+                                <li><a href="#about">Monterservice</a></li>
+                                <li><a href="#contact">Uthyrning</a></li>
+                                <li  class="active"><a href="#contact">Biljetter</a></li>
+                                <li><a href="#contact">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.nav-collapse --> 
+                </div>
+            </div>
+        </nav>
+        <div class="clearfix"></div>
+        <div class="container no-padding  page-bricks">
+            <ol class="breadcrumb">
+                <li><a href="#">Kassan</a></li>
+            </ol>
+            <div class="row" id="product-snapshots">
+                <div class="col-lg-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6 ">
+                            <h3>Biljetter Skogsnolia 2015</h3>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6  col-xs-6 ">
+                            <h3 class="pull-right">TOTALT 350 KR</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <br/>
+                <div class="col-lg-12 col-md-12">
+                    <div class="bs-example">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a class="panel-title" aria-expanded="false" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. LEVERANS E-BILJETT<span class="pull-right">+</span></a>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse  collapse">
+                                    <div class="panel-body">
+                                        <form class="form-horizontal">
+                                            <div class="form-group">
+                                                <label for="Monternummer" class="col-sm-3 control-label">E-postadress</label>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="form-control" id="inputtext3" placeholder="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 ">	
+                                                <button type="button" class="btn btn-success">Fortsätt</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a class="panel-title" aria-expanded="false"  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. BETALNINGSMETOD<span class="pull-right">+</span></a>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <form id="checkout-option" class="form-horizontal">
+                                            <div class="form-group">
+                                                <div class="col-sm-1">
+                                                    <div class="radio-btn">
+                                                        <input type="radio" value="1" class="backup">
+                                                    </div>
+                                                </div>
+                                                <label for="Monternummer" class="col-sm-11 control-label">Visa</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-1">
+                                                    <div class="radio-btn">
+                                                        <input type="radio" value="1" class="backup">
+                                                    </div>
+                                                </div>
+                                                <label for="Monternummer" class="col-sm-11 control-label">Mastercard</label>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-1">
+                                                    <div class="radio-btn">
+                                                        <input type="radio" value="1" class="backup">
+                                                    </div>
+                                                </div>
+                                                <label for="Monternummer" class="col-sm-11 control-label">Faktura (om belopp över 2000kr)</label>
+                                            </div>
+                                        </form>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 ">	
+                                                <button type="button" class="btn btn-success">Fortsätt</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a class="panel-title" aria-expanded="false" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. GRANSKA ORDER<span class="pull-right">+</span></a>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Här visas alla uppgifter</p>
+                                        <p>Här visas alla uppgifter</p>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 ">	
+                                                <button type="button" class="btn btn-success">Slutför beställning</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container ">
+            <footer class="panel-footer container ">
+                <h3>Kontakta oss</h3>
+                <p class="info">NOLIA AB 090163400</p>
+                <a href="mailto:info@nolia.se" class="footer-links"><span class="glyphicon glyphicon-envelope"></span>info@nolia.se</a> 
+            </footer>
+        </div>
+    </body>
+</html>
